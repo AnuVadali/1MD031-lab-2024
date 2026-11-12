@@ -211,7 +211,7 @@ header {
     width: auto;
     height: 250px;
     overflow: hidden;
-    margin: 20px 45px;
+    margin: 20px auto;
 }
 header img {
     display: block;
