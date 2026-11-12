@@ -3,28 +3,32 @@
    <head>
        <title>Unlonely Burgers</title>
        <meta charset="utf-8"/>
+       <link rel="stylesheet" href="/css/style.css">
    </head>
    <body>
     
     <header>
      <h1>Välkommen till Unlonely Burger</h1>
+     <img src="https://images.unsplash.com/photo-1448375240586-882707db888b?w=800"
+         alt="header image">
     </header>
      
     <main>
 
-     <section>
+     <section id="burgers">
 
       <h2>Select Your Burgers</h2>
         Section for selecting cheeseburgers
       
+      <div class="burger-grid">
       <div style="display: inline-block">
        <h3>Mayoburger</h3>
         <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400"    alt="Cheeseburger" width="250">
        <h4>Information</h4>
 
       <ul>
-       <li>Ingredients: Beef, cheese, lettuce, tomato, mayonaise</li>
-       <li>May contain lactose and gluten </li>
+       <li>Ingredients: <span class = "constituents">Beef, cheese, lettuce, tomato, mayonaise</span></li>
+       <li>Allergens : <span class = "constituents">lactose, gluten, sesame </span></li>
        <li>Price: 9 SEK</li>
       </ul>
      </div>
@@ -37,8 +41,8 @@
        <h4>Information</h4>
 
       <ul>
-       <li>Ingredients: Beef, cheese, avocado, tomato</li>
-       <li>May contain lactose and gluten </li>
+       <li>Ingredients: <span class = "constituents">Beef, cheese, avocado, tomato</span></li>
+       <li>Allergens : <span class = "constituents">lactose, gluten, sesame </span></li>
        <li>Price: 18 SEK</li>
       </ul>
      </div>
@@ -51,15 +55,16 @@
        <h4>Information</h4>
 
       <ul>
-       <li>Ingredients: Beef, cheese, lettuce, tomato</li>
-       <li>May contain lactose and gluten </li>
+       <li>Ingredients: <span class = "constituents">Beef, cheese, lettuce, tomato</span></li>
+       <li>Allergens : <span class = "constituents">lactose, gluten, sesame </span></li>
        <li>Price: 10 SEK</li>
       </ul>
      </div>
-
+     
+     </div>
      </section>
 
-     <section>
+     <section id="customer">
     <h2>Customer Information</h2>
     This is where you provide customer information
     <h3> Delivery information: </h3>
