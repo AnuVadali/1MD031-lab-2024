@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+<html lang="en">
+   <head>
+       <title>Unlonely Burgers</title>
+       <meta charset="utf-8"/>
+       <link rel="stylesheet" href="/css/style.css">
+   </head>
+   <body>
+    
+    <header>
+     <h1>Välkommen till Unlonely Burger</h1>
+     <img src="https://images.unsplash.com/photo-1448375240586-882707db888b?w=800"
+         alt="header image">
+    </header>
+     
+    <main>
+
+     <section id="burgers">
+
+      <h2>Select Your Burgers</h2>
+        Section for selecting cheeseburgers
+      
+      <div class="burger-grid">
+      <div style="display: inline-block">
+       <h3>Mayoburger</h3>
+        <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400"    alt="Cheeseburger" width="250">
+       <h4>Information</h4>
+
+      <ul>
+       <li>Ingredients: <span class = "constituents">Beef, cheese, lettuce, tomato, mayonaise</span></li>
+       <li>Allergens : <span class = "constituents">lactose, gluten, sesame </span></li>
+       <li>Price: 9 SEK</li>
+      </ul>
+     </div>
+
+
+
+     <div style="display: inline-block">
+       <h3>Avocado burgers</h3>
+        <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?w=400" alt="Burger" width="250">
+       <h4>Information</h4>
+
+      <ul>
+       <li>Ingredients: <span class = "constituents">Beef, cheese, avocado, tomato</span></li>
+       <li>Allergens : <span class = "constituents">lactose, gluten, sesame </span></li>
+       <li>Price: 18 SEK</li>
+      </ul>
+     </div>
+
+
+
+    <div style="display: inline-block">
+       <h3>Lonely cheeseburger</h3>
+        <img src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=400" alt="Burger with fries" width="250">
+       <h4>Information</h4>
+
+      <ul>
+       <li>Ingredients: <span class = "constituents">Beef, cheese, lettuce, tomato</span></li>
+       <li>Allergens : <span class = "constituents">lactose, gluten, sesame </span></li>
+       <li>Price: 10 SEK</li>
+      </ul>
+     </div>
+     
+     </div>
+     </section>
+
+     <section id="customer">
+    <h2>Customer Information</h2>
+    This is where you provide customer information
+    <h3> Delivery information: </h3>
+    <form>
+    <p>
+    <label for="name">Full Name</label>
+    <br>
+    <input type="text" id="name" name="name"
+           placeholder="First and Last Name">
+    </p>
+    <p>
+    <label for="email">Email</label>
+    <br>
+    <input type="email" id="email" name="email"
+           placeholder="E-mail address">
+    </p>
+    <p>
+    <label for="street">Street</label>
+    <br>
+    <input type="text" id="street" name="street"
+           placeholder="Street name">
+    </p>
+    <p>
+
+    <label for="house-number">House Number</label>
+    <br>
+    <input type="number" id="house-number" name="house-number"
+           placeholder="House Number" min="1">
+    </p>
+
+
+
+    Gender
+
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+
+    <input type="radio" id="not-specified" name="gender"
+       value="not-specified" checked>
+    <label for="not-specified">Don't wish to provide</label>
+    </form>
+    
+    <p>
+    <label for="payment">Preferred payment method</label><be>
+    <select id="payment" name="payment">
+       <option selected>Swish</option>
+       <option>Card</option>
+       <option>Paypal</option>
+       <option>Klarna</option>
+    </select>
+    </p>
+</section>
+    
+     <button type="submit" form="order-form">
+     <img src="https://img.icons8.com/color/48/checkmark--v1.png"
+         alt=""
+         width="24">
+     Submit Order
+     </button>
+
+     </main>
+     <hr>
+     <footer>
+      	 ©2026 Unlonely Burgers Inc
+     </footer>
+   </body>
+</html>
